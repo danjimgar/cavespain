@@ -1,0 +1,307 @@
+{
+
+  "schedule": [{
+
+    "date": "2047-05-17",
+    "groups": [{
+      "time": "Andalucía",
+      "sessions": [
+        {"name": "Gruta de la Matallana", "localidad": "Lora del Río", "provincia": "Sevilla", "region": "Andalucía", "latitud": "37663684", "longitud": "-5585667", "tracks": ["Ionic"], "id": "1"},
+        {"name": "Cueva del Yeso", "localidad": "Baena", "provincia": "Córdoba", "region": "Andalucía", "latitud": "37.6808532", "longitud": "-4.357959499999993", "tracks": ["Ionic"], "id": "2"},
+        {"name": "Cueva de las Ventanas", "localidad": "Piñar", "provincia": "Granada", "region": "Andalucía", "latitud": "37.44166", "longitud": " -3.4300155999999333", "tracks": ["Ionic"], "id": "3"},
+        {"name": "Cueva del Agua", "localidad": "Iznalloz", "provincia": "Granada", "region": "Andalucía", "latitud": "37.389126", "longitud": "-3.4617792000000236", "tracks": ["Ionic"], "id": "4"},
+        {"name": "Gruta de las Maravillas", "localidad": "Aracena", "provincia": "Huelva", "region": "Andalucía", "latitud": "37.8910539", "longitud": "-6.565883900000017", "tracks": ["Ionic"], "id": "5"},
+        {"name": "Cueva de Nerja", "localidad": "Nerja", "provincia": "Málaga", "region": "Andalucía", "latitud": "36.760727", "longitud": " -3.8462266999999883", "tracks": ["Ionic"], "id": "6"},
+        {"name": "Cueva del Tesoro", "localidad": "Rincón de la Victoria", "provincia": "Málaga", "region": "Andalucía", "latitud": "36.7197184", "longitud": "-4.29760710000005", "tracks": ["Ionic"], "id": "7"}
+      ]
+    },
+    {
+      "time": "Aragón",
+      "sessions": [
+        {"name": "Cuevas de la Güixas", "localidad": "Villanúa", "provincia": "Huesca", "region": "Aragón", "latitud": "42.6825261", "longitud": "-0.5325126999999839", "tracks": ["Ionic"], "id": "8"},
+        {"name": "Grutas de Cristal", "localidad": "Molinos", "provincia": "Teruel", "region": "Aragón", "latitud": "40.79412430000001", "longitud": "-0.45013219999998455", "tracks": ["Ionic"], "id": "9"}
+        ]
+    },
+    {
+      "time": "Asturias",
+      "sessions": [
+        {"name": "Cuevas del Agua", "localidad": "Ribadesella", "provincia": "Asturias", "region": "Asturias", "latitud": "43.43193", "longitud": "-5.073610000000031", "tracks": ["Ionic"], "id": "10"},
+        {"name": "Cuevona de Avín", "localidad": "Avín", "provincia": "Asturias", "region": "Asturias", "latitud": "43.3350429", "longitud": "-4.953961100000015", "tracks": ["Ionic"], "id": "11"}
+        ]
+    },
+    {
+      "time": "Baleares",
+      "sessions": [
+        {"name": "Cova de Can Marçà", "localidad": "San Miquel", "provincia": "Ibiza", "region": "Baleares", "latitud": "39.0828669", "longitud": "1.4423314000000573", "tracks": ["Ionic"], "id": "12"},
+        {"name": "Cueva de Campanet", "localidad": "Campanet", "provincia": "Mallorca", "region": "Baleares", "latitud": "39.79402", "longitud": "2.9675700000000234", "tracks": ["Ionic"], "id": "13"},
+        {"name": "Cuevas del Drach", "localidad": "Porto Cristo", "provincia": "Mallorca", "region": "Baleares", "latitud": "39.5365569", "longitud": "3.331058999999982", "tracks": ["Ionic"], "id": "14"}
+        ]
+    },
+    {
+      "time": "Canarias",
+      "sessions": [
+        {"name": "Jameos del Agua", "localidad": "Lanzarote", "provincia": "Lanzarote", "region": "Canarias", "latitud": "29.1579039", "longitud": "-13.431244200000037", "tracks": ["Ionic"], "id": "16"},
+        {"name": "Cueva del Viento", "localidad": "Icod de los Vinos", "provincia": "Tenerife", "region": "Canarias", "latitud": "28.3519727", "longitud": "-16.704059599999937", "tracks": ["Ionic"], "id": "17"}
+        ]
+    },
+    {
+      "time": "Cantabria",
+      "sessions": [
+        {"name": "Cueva de Chufín", "localidad": "Riclones", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.2823044", "longitud": "-4.447409500000049", "tracks": ["Ionic"], "id": "15"},
+        {"name": "Cueva de Altamira", "localidad": "Santillana del Mar", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.3781487", "longitud": " -4.121987200000035", "tracks": ["Ionic"], "id": "18"},
+        {"name": "Cueva de Covalanas", "localidad": "Ramales de la Victoria", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.2433065", "longitud": "-3.453293799999983", "tracks": ["Ionic"], "id": "19"},
+        {"name": "Cueva de El Pendo", "localidad": "Escobedo de Camargo", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.39033", "longitud": "-3.91107999999997", "tracks": ["Ionic"], "id": "20"},
+        {"name": "Cueva de Hornos de la Peña", "localidad": "San Felices de Buelna", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.26165", "longitud": "-4.032090000000039", "tracks": ["Ionic"], "id": "21"},
+        {"name": "Cueva de las Monedas", "localidad": "Puente Viesgo", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.28888999999999", "longitud": "-3.9676600000000235", "tracks": ["Ionic"], "id": "22"},
+        {"name": "Cueva de Santián", "localidad": "Piélagos", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.3781487", "longitud": " -4.121987200000035", "tracks": ["Ionic"], "id": "23"},
+        {"name": "Cueva del Castillo", "localidad": "Puente Viesgo", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.29238", "longitud": "-3.9655400000000327", "tracks": ["Ionic"], "id": "24"},
+        {"name": "Cueva El Soplao", "localidad": "Valdáliga / Celis-Rionansa", "provincia": "Cantabria", "region": "Cantabria", "latitud": "43.2952138", "longitud": "-4.410255799999959", "tracks": ["Ionic"], "id": "25"}
+        ]
+    },
+    {
+      "time": "Castilla la Mancha",
+      "sessions": [
+        {"name": "Parque Minero de Almadén", "localidad": "Almadén", "provincia": "Ciudad Real", "region": "Castilla la Mancha", "latitud": "38.7750713", "longitud": " -4.842781899999977", "tracks": ["Ionic"], "id": "26"},
+        {"name": "Mina Romana de la Mora Encantada", "localidad": "Torrejoncillo del Rey", "provincia": "Cuenca", "region": "Castilla la Mancha", "latitud": "40.0151738", "longitud": "-2.586555800000042", "tracks": ["Ionic"], "id": "27"}
+        ]
+    },
+    {
+      "time": "Castilla y León",
+      "sessions": [
+        {"name": "Grutas del Áquila", "localidad": "Arenas de San Pedro", "provincia": "Ávila", "region": "Castilla y León", "latitud": "40.1544418", "longitud": "-5.0713325000000395", "tracks": ["Ionic"], "id": "28"},
+        {"name": "Cueva de Ojo Guareña", "localidad": "Merindad de Sotoscueva", "provincia": "Burgos", "region": "Castilla y León", "latitud": "43.03427", "longitud": "-3.6648400000000265", "tracks": ["Ionic"], "id": "29"},
+        {"name": "Cueva Palomera", "localidad": "Merindad de Sotoscueva", "provincia": "Burgos", "region": "Castilla y León", "latitud": "43.03438999999999", "longitud": "-3.6633500000000367", "tracks": ["Ionic"], "id": "30"},
+        {"name": "Cueva de Valporquero", "localidad": "Valporquero de Torío", "provincia": "León", "region": "Castilla y León", "latitud": "42.9062676", "longitud": "-5.5590674000000035", "tracks": ["Ionic"], "id": "31"},
+        {"name": "Cueva de los Franceses", "localidad": "Revilla de Pomar", "provincia": "Palencia", "region": "Castilla y León", "latitud": "42.7724752", "longitud": "-4.116561499999989", "tracks": ["Ionic"], "id": "32"},
+        {"name": "Cueva de Los Enebralejos", "localidad": "Prádena de la Sierra", "provincia": "Segovia", "region": "Castilla y León", "latitud": "41.14238580000001", "longitud": "-3.679053500000009", "tracks": ["Ionic"], "id": "33"},
+        {"name": "Cueva de la Galiana", "localidad": "Ucero", "provincia": "Soria", "region": "Castilla y León", "latitud": "41.7669881", "longitud": "-2.4747284999999692", "tracks": ["Ionic"], "id": "34"}
+        ]
+    },
+    {
+      "time": "Cataluña",
+      "sessions": [
+        {"name": "Cueva Meravelles", "localidad": "Benifallet", "provincia": "Tarragona", "region": "Cataluña", "latitud": "40.9511366", "longitud": "0.5263565999999855", "tracks": ["Ionic"], "id": "35"}
+        ]
+    },
+    {
+      "time": "Comunidad Valenciana",
+      "sessions": [
+        {"name": "Cueva de Adsubia o Canalobres", "localidad": "Adsubia", "provincia": "Alicante", "region": "Comunidad Valenciana", "latitud": "38.5129462", "longitud": "-0.4121944999999414", "tracks": ["Ionic"], "id": "36"},
+        {"name": "Cueva de las Calaveras", "localidad": "Benidoleig", "provincia": "Alicante", "region": "Comunidad Valenciana", "latitud": "38.7950132", "longitud": "-0.017190400000004047", "tracks": ["Ionic"], "id": "37"},
+        {"name": "Cueva del Rull", "localidad": "Vall D´ebo", "provincia": "Alicante", "region": "Comunidad Valenciana", "latitud": "38.8113006", "longitud": "-0.17737230000000181", "tracks": ["Ionic"], "id": "38"},
+        {"name": "Grutas de San José", "localidad": "Vall d’Uixó", "provincia": "Castellón", "region": "Comunidad Valenciana", "latitud": "39.8245146", "longitud": "-0.2528053999999429", "tracks": ["Ionic"], "id": "39"},
+        {"name": "Cueva de Don Juan", "localidad": "Jalance", "provincia": "Valencia", "region": "Comunidad Valenciana", "latitud": "39.1847208", "longitud": "-1.1431923999999754", "tracks": ["Ionic"], "id": "40"}
+        ]
+    },
+    {
+      "time": "Extremadura",
+      "sessions": [
+        {"name": "Cuevas de Fuentes de León", "localidad": "Fuentes de León", "provincia": "Badajoz", "region": "Extremadura", "latitud": "38.0256324", "longitud": "-6.497179299999971", "tracks": ["Ionic"], "id": "41"},
+        {"name": "Mina de la Jayona", "localidad": "Fuente del Arco", "provincia": "Badajoz", "region": "Extremadura", "latitud": "38.116881", "longitud": "-5.934854900000005", "tracks": ["Ionic"], "id": "42"},
+        {"name": "Cuevas de Castañar", "localidad": "Castañar de Ibor", "provincia": "Cáceres", "region": "Extremadura", "latitud": "40.10856", "longitud": "-5.903890000000047", "tracks": ["Ionic"], "id": "43"},
+        {"name": "Mina Costanaza", "localidad": "Logrosán", "provincia": "Cáceres", "region": "Extremadura", "latitud": "39.3355595", "longitud": "-5.484882800000037", "tracks": ["Ionic"], "id": "44"}
+        ]
+    },
+    {
+      "time": "Madrid",
+      "sessions": [
+        {"name": "IGME", "localidad": "Madrid", "provincia": "Madrid", "region": "Madrid", "latitud": "40.4425062", "longitud": "-3.699630999999954", "tracks": ["Ionic"], "id": "45"}
+        ]
+    },
+    {
+      "time": "Murcia",
+      "sessions": [
+        {"name": "Cueva de El Puerto", "localidad": "Calasparra", "provincia": "Murcia", "region": "Murcia", "latitud": "38.2866887", "longitud": "-1.6277757999999949", "tracks": ["Ionic"], "id": "46"}
+        ]
+    },
+    {
+      "time": "Navarra",
+      "sessions": [
+        {"name": "Cueva de Mendukilo", "localidad": "Astitz", "provincia": "Navarra", "region": "Navarra", "latitud": "42.9847", "longitud": "-1.8888789999999744", "tracks": ["Ionic"], "id": "47"}
+        ]
+    },
+    {
+      "time": "País Vasco",
+      "sessions": [
+        {"name": "Cueva de Oñati - Arrikrutz", "localidad": "Oñati", "provincia": "Guipúzcoa", "region": "País Vasco", "latitud": "43.00396", "longitud": "-2.433589999999981", "tracks": ["Ionic"], "id": "48"},
+        {"name": "Cueva de Pozalagua", "localidad": "Carranza", "provincia": "Vizcaya", "region": "País Vasco", "latitud": "43.25989999999999", "longitud": "-3.385440000000017", "tracks": ["Ionic"], "id": "49"}
+        ]
+    }
+  ]
+
+    }],
+
+
+  "speakers": [{
+    "name": "Burt Bear",
+    "profilePic": "assets/img/speakers/bear.jpg",
+    "twitter": "ionicframework",
+    "about": "Burt is a Bear.",
+    "location": "Everywhere",
+    "email": "burt@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "1"
+  }, {
+    "name": "Charlie Cheetah",
+    "profilePic": "assets/img/speakers/cheetah.jpg",
+    "twitter": "ionicframework",
+    "about": "Charlie is a Cheetah.",
+    "location": "Everywhere",
+    "email": "charlie@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "2"
+  }, {
+    "name": "Donald Duck",
+    "profilePic": "assets/img/speakers/duck.jpg",
+    "twitter": "ionicframework",
+    "about": "Donald is a Duck.",
+    "location": "Everywhere",
+    "email": "donald@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "3"
+  }, {
+    "name": "Eva Eagle",
+    "profilePic": "assets/img/speakers/eagle.jpg",
+    "twitter": "ionicframework",
+    "about": "Eva is an Eagle.",
+    "location": "Everywhere",
+    "email": "eva@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "4"
+  }, {
+    "name": "Ellie Elephant",
+    "profilePic": "assets/img/speakers/elephant.jpg",
+    "twitter": "ionicframework",
+    "about": "Ellie is an Elephant.",
+    "location": "Everywhere",
+    "email": "ellie@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "5"
+  }, {
+    "name": "Gino Giraffe",
+    "profilePic": "assets/img/speakers/giraffe.jpg",
+    "twitter": "ionicframework",
+    "about": "Gino is a Giraffe.",
+    "location": "Everywhere",
+    "email": "gino@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "6"
+  }, {
+    "name": "Isabella Iguana",
+    "profilePic": "assets/img/speakers/iguana.jpg",
+    "twitter": "ionicframework",
+    "about": "Isabella is an Iguana.",
+    "location": "Everywhere",
+    "email": "isabella@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "7"
+  }, {
+    "name": "Karl Kitten",
+    "profilePic": "assets/img/speakers/kitten.jpg",
+    "twitter": "ionicframework",
+    "about": "Karl is a Kitten.",
+    "location": "Everywhere",
+    "email": "karl@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "8"
+  }, {
+    "name": "Lionel Lion",
+    "profilePic": "assets/img/speakers/lion.jpg",
+    "twitter": "ionicframework",
+    "about": "Lionel is a Lion.",
+    "location": "Everywhere",
+    "email": "lionel@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "9"
+  }, {
+    "name": "Molly Mouse",
+    "profilePic": "assets/img/speakers/mouse.jpg",
+    "twitter": "ionicframework",
+    "about": "Molly is a Mouse.",
+    "location": "Everywhere",
+    "email": "molly@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "10"
+  }, {
+    "name": "Paul Puppy",
+    "profilePic": "assets/img/speakers/puppy.jpg",
+    "twitter": "ionicframework",
+    "about": "Paul is a Puppy.",
+    "location": "Everywhere",
+    "email": "paul@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "11"
+  }, {
+    "name": "Rachel Rabbit",
+    "profilePic": "assets/img/speakers/rabbit.jpg",
+    "twitter": "ionicframework",
+    "about": "Rachel is a Rabbit.",
+    "location": "Everywhere",
+    "email": "rachel@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "12"
+  }, {
+    "name": "Ted Turtle",
+    "profilePic": "assets/img/speakers/turtle.jpg",
+    "twitter": "ionicframework",
+    "about": "Ted is a Turtle.",
+    "location": "Everywhere",
+    "email": "ted@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "13"
+  }],
+
+
+  "map": [
+    { "name": "Gruta de la Matallana - Lora del Río (Sevilla)", "lat": 37663684, "lng": -5585667},
+    { "name": "Cueva del Yeso - Baena (Córdoba)", "lat": 37.6808532, "lng": -4.357959499999993},
+    { "name": "Cueva de las Ventanas - Piñar (Granada)", "lat": 37.44166, "lng":  -3.4300155999999333},
+    { "name": "Cueva del Agua - Iznalloz (Granada)", "lat": 37.389126, "lng": -3.4617792000000236},
+    { "name": "Gruta de las Maravillas - Aracena (Huelva)", "lat": 37.8910539, "lng": -6.565883900000017},
+    { "name": "Cueva de Nerja - Nerja (Málaga)", "lat": 36.760727, "lng":  -3.8462266999999883},
+    { "name": "Cueva del Tesoro - Rincón de la Victoria (Málaga)", "lat": 36.7197184, "lng": -4.29760710000005},
+    { "name": "Cuevas de la Güixas - Villanúa (Huesca)", "lat": 42.6825261, "lng": -0.5325126999999839},
+    { "name": "Grutas de Cristal - Molinos (Teruel)", "lat": 40.79412430000001, "lng": -0.45013219999998455},
+    { "name": "Cuevas del Agua - Ribadesella (Asturias)", "lat": 43.43193, "lng": -5.073610000000031},
+    { "name": "Cuevona de Avín - Avín (Asturias)", "lat": 43.3350429, "lng": -4.953961100000015},
+    { "name": "Cova de Can Marçà - San Miquel (Ibiza)", "lat": 39.0828669, "lng": 1.4423314000000573},
+    { "name": "Cueva de Campanet - Campanet (Mallorca)", "lat": 39.79402, "lng": 2.9675700000000234},
+    { "name": "Cuevas del Drach - Porto Cristo (Mallorca)", "lat": 39.5365569, "lng": 3.331058999999982},
+    { "name": "Cueva de Chufín - Riclones (Cantabria)", "lat": 43.2823044, "lng": -4.447409500000049},
+    { "name": "Jameos del Agua - Lanzarote (Lanzarote)", "lat": 29.1579039, "lng": -13.431244200000037},
+    { "name": "Cueva del Viento - Icod de los Vinos (Tenerife)", "lat": 28.3519727, "lng": -16.704059599999937},
+    { "name": "Cueva de Altamira - Santillana del Mar (Cantabria)", "lat": 43.3781487, "lng":  -4.121987200000035},
+    { "name": "Cueva de Covalanas - Ramales de la Victoria (Cantabria)", "lat": 43.2433065, "lng": -3.453293799999983},
+    { "name": "Cueva de El Pendo - Escobedo de Camargo (Cantabria)", "lat": 43.39033, "lng": -3.91107999999997},
+    { "name": "Cueva de Hornos de la Peña - San Felices de Buelna (Cantabria)", "lat": 43.26165, "lng": -4.032090000000039},
+    { "name": "Cueva de las Monedas - Puente Viesgo (Cantabria)", "lat": 43.28888999999999, "lng": -3.9676600000000235},
+    { "name": "Cueva de Santián - Piélagos (Cantabria)", "lat": 43.3781487, "lng":  -4.121987200000035},
+    { "name": "Cueva del Castillo - Puente Viesgo (Cantabria)", "lat": 43.29238, "lng": -3.9655400000000327},
+    { "name": "Cueva El Soplao - Valdáliga / Celis-Rionansa (Cantabria)", "lat": 43.2952138, "lng": -4.410255799999959},
+    { "name": "Parque Minero de Almadén - Almadén (Ciudad Real)", "lat": 38.7750713, "lng":  -4.842781899999977},
+    { "name": "Mina Romana de la Mora Encantada - Torrejoncillo del Rey (Cuenca)", "lat": 40.0151738, "lng": -2.586555800000042},
+    { "name": "Grutas del Áquila - Arenas de San Pedro (Ávila)", "lat": 40.1544418, "lng": -5.0713325000000395},
+    { "name": "Cueva de Ojo Guareña - Merindad de Sotoscueva (Burgos)", "lat": 43.03427, "lng": -3.6648400000000265},
+    { "name": "Cueva Palomera - Merindad de Sotoscueva (Burgos)", "lat": 43.03438999999999, "lng": -3.6633500000000367},
+    { "name": "Cueva de Valporquero - Valporquero de Torío (León)", "lat": 42.9062676, "lng": -5.5590674000000035},
+    { "name": "Cueva de los Franceses - Revilla de Pomar (Palencia)", "lat": 42.7724752, "lng": -4.116561499999989},
+    { "name": "Cueva de Los Enebralejos - Prádena de la Sierra (Segovia)", "lat": 41.14238580000001, "lng": -3.679053500000009},
+    { "name": "Cueva de la Galiana - Ucero (Soria)", "lat": 41.7669881, "lng": -2.4747284999999692},
+    { "name": "Cueva Meravelles - Benifallet (Tarragona)", "lat": 40.9511366, "lng": 0.5263565999999855},
+    { "name": "Cueva de Adsubia o Canalobres - Adsubia (Alicante)", "lat": 38.5129462, "lng": -0.4121944999999414},
+    { "name": "Cueva de las Calaveras - Benidoleig (Alicante)", "lat": 38.7950132, "lng": -0.017190400000004047},
+    { "name": "Cueva del Rull - Vall D´ebo (Alicante)", "lat": 38.8113006, "lng": -0.17737230000000181},
+    { "name": "Grutas de San José - Vall d’Uixó (Castellón)", "lat": 39.8245146, "lng": -0.2528053999999429},
+    { "name": "Cueva de Don Juan - Jalance (Valencia)", "lat": 39.1847208, "lng": -1.1431923999999754},
+    { "name": "Cuevas de Fuentes de León - Fuentes de León (Badajoz)", "lat": 38.0256324, "lng": -6.497179299999971},
+    { "name": "Mina de la Jayona - Fuente del Arco (Badajoz)", "lat": 38.116881, "lng": -5.934854900000005},
+    { "name": "Cuevas de Castañar - Castañar de Ibor (Cáceres)", "lat": 40.10856, "lng": -5.903890000000047},
+    { "name": "Mina Costanaza - Logrosán (Cáceres)", "lat": 39.3355595, "lng": -5.484882800000037},
+    { "name": "IGME - Madrid (Madrid)", "lat": 40.4425062, "lng": -3.699630999999954, "center": true},
+    { "name": "Cueva de El Puerto - Calasparra (Murcia)", "lat": 38.2866887, "lng": -1.6277757999999949},
+    { "name": "Cueva de Mendukilo - Astitz (Navarra)", "lat": 42.9847, "lng": -1.8888789999999744},
+    { "name": "Cueva de Oñati - Arrikrutz - Oñati (Guipúzcoa)", "lat": 43.00396, "lng": -2.433589999999981},
+    { "name": "Cueva de Pozalagua - Carranza (Vizcaya)", "lat": 43.25989999999999, "lng": -3.385440000000017}
+]
+
+}

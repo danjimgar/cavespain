@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title *ngIf="session">{{session.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngIf="session">
+    <h1>{{session.name}}</h1>
+    <h4 *ngFor="let speaker of session?.speakers">
+    {{speaker.name}}
+  </h4>
+    <p>{{session.localidad}}</p>
+    <p>{{session.provincia}} ({{session.region}})</p>
+  </div>
+</ion-content>
