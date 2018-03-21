@@ -19,7 +19,7 @@ export class MapPage {
   }
 
   ionViewDidLoad() {
-
+/*
     let notify = function() {
 
       if (navigator.geolocation) {
@@ -33,17 +33,17 @@ export class MapPage {
 
     }
 
-    notify();
+    notify();*/
 
       this.confData.getMap().subscribe((mapData: any) => {
         let mapEle = this.mapElement.nativeElement;
 
-        //let longitude = localStorage.getItem("longitude");
-        //let latitude = localStorage.getItem("latitude");
-        //let myLatlng = new google.maps.LatLng(latitude, longitude);
-        
+        let longitude = localStorage.getItem("longitude");
+        let latitude = localStorage.getItem("latitude");
+        let myLatlng = new google.maps.LatLng(latitude, longitude);
+
         //Madrid
-        let myLatlng = new google.maps.LatLng(40.4893538, -3.6827461);
+        //let myLatlng = new google.maps.LatLng(40.4893538, -3.6827461);
 
         let map = new google.maps.Map(mapEle, {
           center: myLatlng,

@@ -20,6 +20,8 @@ import { UserData } from '../providers/user-data';
 
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
+import { Geolocation } from '@ionic-native/geolocation';
+
 export interface PageInterface {
   title: string;
   name: string;
@@ -69,6 +71,7 @@ export class ConferenceApp {
     public storage: Storage,
     public splashScreen: SplashScreen,
     public inAppBrowser: InAppBrowser,
+    public geolocation: Geolocation
   ) {
 
     // Check if the user has already seen the tutorial
@@ -150,6 +153,17 @@ export class ConferenceApp {
   }
 
   platformReady() {
+
+    //Carga la geolocation
+    this.geolocation.getCurrentPosition().then((resp) => {
+      console.log(resp.coords.latitude);
+      console.log(resp.coords.longitude);
+      localStorage.setItem("longitude", JSON.stringify(resp.coords.latitude));
+      localStorage.setItem("latitude", JSON.stringify(resp.coords.longitude));
+    }).catch((error) => {
+      console.log('Error getting location', error);
+    });
+
     // Call any initial plugins when ready
     this.platform.ready().then(() => {
       this.splashScreen.hide();

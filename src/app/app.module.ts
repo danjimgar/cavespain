@@ -31,7 +31,7 @@ import { UserData } from '../providers/user-data';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpProvider } from '../providers/http/http';
 
-
+import { Geolocation } from '@ionic-native/geolocation';
 
 
 @NgModule({
@@ -99,7 +99,8 @@ import { HttpProvider } from '../providers/http/http';
     UserData,
     InAppBrowser,
     SplashScreen,
-    HttpProvider
+    HttpProvider,
+    Geolocation
   ]
 })
 export class AppModule { }
