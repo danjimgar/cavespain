@@ -4,6 +4,8 @@ import { ConferenceData } from '../../providers/conference-data';
 
 import { Platform } from 'ionic-angular';
 
+import { Geolocation } from '@ionic-native/geolocation';
+
 
 declare var google: any;
 
@@ -15,10 +17,21 @@ declare var google: any;
 export class MapPage {
 
   @ViewChild('mapCanvas') mapElement: ElementRef;
-  constructor(public confData: ConferenceData, public platform: Platform) {
+  constructor(public confData: ConferenceData, public platform: Platform, public geolocation: Geolocation) {
   }
 
   ionViewDidLoad() {
+
+    this.geolocation.getCurrentPosition().then((resp) => {
+      console.log(resp.coords.latitude);
+      console.log(resp.coords.longitude);
+      localStorage.setItem("latitude", JSON.stringify(resp.coords.latitude));
+      localStorage.setItem("longitude", JSON.stringify(resp.coords.longitude));
+    }).catch((error) => {
+      console.log('Error getting location', error);
+    });
+
+
 /*
     let notify = function() {
 
@@ -40,7 +53,7 @@ export class MapPage {
 
         let longitude = localStorage.getItem("longitude");
         let latitude = localStorage.getItem("latitude");
-        let myLatlng = new google.maps.LatLng(latitude, longitude);
+        let myLatlng = new google.maps.LatLng(latitude,longitude);
 
         //Madrid
         //let myLatlng = new google.maps.LatLng(40.4893538, -3.6827461);

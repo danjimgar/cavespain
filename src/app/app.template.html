@@ -11,7 +11,13 @@
 
     <ion-content >
       <ion-list>
-        <button ion-item menuClose *ngFor="let p of appPages" (click)="openPage(p)" style="background-color: #fec33b; height: 5em;" >
+        <button ion-item menuClose *ngFor="let p of appPages; let i=index"
+        [class.all]="i == 0 || i == 3"
+        [class.one]="i == 1"
+        [class.two]="i == 2"
+        [class.green]="i == 1 || i == 3"
+        [class.yellow]="i == 0 || i == 2"
+        (click)="openPage(p)" style="height: 5em;" >
           <ion-avatar item-start>
             <img class="img-menu" src="assets/img/menu/{{p.icon}}.png"  alt="hola" style="border-radius: 0px">
           </ion-avatar>

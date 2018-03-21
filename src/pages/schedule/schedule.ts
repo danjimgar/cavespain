@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, FabContainer, ItemSliding, List, ModalController, NavController, ToastController, LoadingController, Refresher } from 'ionic-angular';
+import { AlertController, App, FabContainer, ItemSliding, List, ModalController, NavController, ToastController, LoadingController } from 'ionic-angular';
 
 /*
   To learn how to use third party libs in an
@@ -122,7 +122,7 @@ export class SchedulePage {
             else {
               this.inAppBrowser.create(
                 //Video por defecto por si no lo encuentra
-                `https://www.youtube.com/watch?v=0eykC2TC4XY`,
+                `https://www.youtube.com/watch?v=ruVYc4eB7gI`,
                 '_blank'
               );
             }
@@ -212,7 +212,7 @@ export class SchedulePage {
     });
     loading.present();
   }
-
+/*
   doRefresh(refresher: Refresher) {
     this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).subscribe((data: any) => {
       this.shownSessions = data.shownSessions;
@@ -230,5 +230,5 @@ export class SchedulePage {
         toast.present();
       }, 1000);
     });
-  }
+  }*/
 }
